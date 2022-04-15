@@ -14,7 +14,7 @@ public class Brave extends Human {
 		int a = (int) (Math.random() * 10 + 1);
 		int total = this.offensive * a;
 		target.hp = target.hp - total;
-		System.out.println(this.name + "が剣で攻撃！" + target.name + "に" + total + "のダメージ");
+		System.out.println(this.name + "が剣で攻撃！" + target.name + "に" + total + "のダメージを与えた。");
 	}
 }
 
